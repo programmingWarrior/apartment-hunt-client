@@ -1,0 +1,7 @@
+.service-area:hover{
+    border: 5px solid #71C2B7;
+    padding: 20px;
+}
+.footer-contact-icon img:hover{
+    background-color: #275A53;
+}

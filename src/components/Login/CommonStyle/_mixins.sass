@@ -1,0 +1,20 @@
+@import './_variable'
+@import './media'
+
+=button ($topBottom, $leftRight)
+    padding : $topBottom $leftRight  !important
+    background : $background !important
+    border: none !important
+    &:focus
+        outline : none !important
+        box-shadow: none !important
+
+=commonContent($size:3rem)
+    h1
+        overflow: hidden
+        font-size: $size
+        font-weight: bold
+        color : $commonContent
+    h5
+        overflow: hidden
+        color : $background
